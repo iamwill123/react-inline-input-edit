@@ -47,5 +47,14 @@
   },
   "files": [
     "build"
-  ]
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamwill123/react-inline-input-edit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamwill123/react-inline-input-edit/issues"
+  },
+  "homepage": "https://github.com/iamwill123/react-inline-input-edit#readme"
 }
