@@ -1,11 +1,4 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = require('react');
-var React__default = _interopDefault(React);
+import React, { useState, useRef, useEffect } from 'react';
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -38,15 +31,15 @@ var ESC_KEY_CODE = 27;
 var DEFAULT_LABEL_PLACEHOLDER = 'Click to edit';
 var InlineInputEdit = function (props) {
     var _a, _b;
-    var _c = React.useState(props.isEditing || false), isEditing = _c[0], setIsEditing = _c[1];
-    var _d = React.useState(props.text || ''), text = _d[0], setText = _d[1];
-    var textInput = React.useRef(null);
-    React.useEffect(function () {
+    var _c = useState(props.isEditing || false), isEditing = _c[0], setIsEditing = _c[1];
+    var _d = useState(props.text || ''), text = _d[0], setText = _d[1];
+    var textInput = useRef(null);
+    useEffect(function () {
         if (text) {
             setText(text);
         }
     }, [text]);
-    React.useEffect(function () {
+    useEffect(function () {
         setIsEditing(isEditing);
     }, [isEditing]);
     var isTextValueValid = function () {
@@ -109,8 +102,8 @@ var InlineInputEdit = function (props) {
         },
         _a);
     if (isEditing) {
-        return (React__default.createElement(React__default.Fragment, null,
-            React__default.createElement("input", __assign({ type: "text", autoFocus: true }, inputProps))));
+        return (React.createElement(React.Fragment, null,
+            React.createElement("input", __assign({ type: "text", autoFocus: true }, inputProps))));
     }
     var labelText = isTextValueValid()
         ? text
@@ -125,9 +118,9 @@ var InlineInputEdit = function (props) {
             fontWeight: props.labelFontWeight,
         },
         _b);
-    return (React__default.createElement(React__default.Fragment, null,
-        React__default.createElement("label", __assign({}, labelProps), labelText)));
+    return (React.createElement(React.Fragment, null,
+        React.createElement("label", __assign({}, labelProps), labelText)));
 };
 
-exports.InlineInputEdit = InlineInputEdit;
-//# sourceMappingURL=index.js.map
+export { InlineInputEdit };
+//# sourceMappingURL=index.es.js.map
