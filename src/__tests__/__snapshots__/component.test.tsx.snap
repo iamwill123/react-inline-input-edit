@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inline Input edit component. should render a default "Click to edit" label when no text prop or labelPlaceHolder prop is provided. 1`] = `
+<label
+  data-testid="label-component"
+  onClick={[Function]}
+  style={
+    Object {
+      "cursor": "auto",
+      "fontSize": undefined,
+      "fontWeight": undefined,
+    }
+  }
+>
+  Click to edit
+</label>
+`;
+
+exports[`Inline Input edit component. should render a label when a labelPlaceHolder prop is provided. 1`] = `
+<label
+  data-testid="label-component"
+  onClick={[Function]}
+  style={
+    Object {
+      "cursor": "auto",
+      "fontSize": undefined,
+      "fontWeight": undefined,
+    }
+  }
+>
+  hey there
+</label>
+`;
+
+exports[`Inline Input edit component. should render a text label given a text prop. 1`] = `
+<label
+  data-testid="label-component"
+  onClick={[Function]}
+  style={
+    Object {
+      "cursor": "auto",
+      "fontSize": undefined,
+      "fontWeight": undefined,
+    }
+  }
+>
+  Chuck Norris’ tears cure cancer. Too bad he has never cried.
+</label>
+`;
+
+exports[`Inline Input edit component. should render an input when label is clicked, and should update label with new input text. 1`] = `
+<DocumentFragment>
+  <input
+    data-testid="input-component"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;
+
+exports[`Inline Input edit component. should render an input when label is clicked, and should update label with new input text. 2`] = `
+<DocumentFragment>
+  <label
+    data-testid="label-component"
+    style="cursor: auto;"
+  >
+    check me out
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Inline Input edit component. should render optional props provided by user. 1`] = `
+<DocumentFragment>
+  <label
+    class="red"
+    data-testid="label-component"
+    style="cursor: pointer; font-size: 20px; font-weight: 500;"
+  >
+    Chuck Norris
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Inline Input edit component. should render optional props provided by user. 2`] = `
+<DocumentFragment>
+  <input
+    class="the-one"
+    data-testid="input-component"
+    maxlength="20"
+    placeholder="the Chuck Norris"
+    style="width: 500px; height: 20px; font-size: 30px; font-weight: 500; border-width: 20px;"
+    tabindex="1"
+    type="text"
+    value="Chuck Norris"
+  />
+</DocumentFragment>
+`;
