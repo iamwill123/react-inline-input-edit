@@ -1,8 +1,8 @@
-# A simple React inline editing component.
+# A simple React inline editing component
 
 ## Reasoning
 
-This npm package is originally adapted from https://github.com/bfischer/react-inline-editing. I found the package a few days ago and is super useful but un-maintained? Mainly needed it to work with TypeScript + ReactJS. The below README desc is adapted from the originator's README.
+This npm package is originally adapted from <https://github.com/bfischer/react-inline-editing>. I found the package a few days ago and is super useful but un-maintained? Mainly needed it to work with TypeScript + ReactJS. The below README desc is adapted from the originator's README.
 
 This is an inline, editable text/label component built in React + TypeScript.
 
@@ -15,8 +15,14 @@ The `<InlineInputEdit />` allows the user to simply click and edit text inline. 
 - `npm install --save react-inline-input-edit`
 - `yarn add react-inline-input-edit`
 
+## Create your own
+
+- to build -> `npm run build` or `yarn build`
+- to test -> `npm run test` or `yarn test`
+
 ## Component `props`
-_* Required_
+
+(*) Required
 
 | Prop             | Type     | Description                                                                          |
 | ---------------- | -------- | ------------------------------------------------------------------------------------ |
@@ -38,8 +44,8 @@ _* Required_
 | onFocus          | function | Callback for text focusing. Parameter(s): `text`                                     |
 | onFocusOut       | function | Callback for focus leaving editor. Parameter(s): `text`                              |
 
-
 ## An example
+
 ```javascript
 import React, { FC } from 'react';
 import { InlineInputEdit } from 'react-inline-input-edit';

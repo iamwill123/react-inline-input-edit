@@ -1,6 +1,6 @@
 {
   "name": "react-inline-input-edit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple inline input editor for react",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -27,6 +27,7 @@
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "@types/react-test-renderer": "^16.9.2",
+    "dot-prop": ">=5.1.1",
     "jest": "^26.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -38,8 +39,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.3",
     "rollup-plugin-typescript2": "^0.27.1",
     "ts-jest": "^26.1.3",
-    "typescript": "^3.9.7",
-    "dot-prop": ">=5.1.1"
+    "typescript": "^3.9.7"
   },
   "jest": {
     "preset": "ts-jest",
@@ -56,5 +56,8 @@
   "bugs": {
     "url": "https://github.com/iamwill123/react-inline-input-edit/issues"
   },
-  "homepage": "https://github.com/iamwill123/react-inline-input-edit#readme"
+  "homepage": "https://github.com/iamwill123/react-inline-input-edit#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
