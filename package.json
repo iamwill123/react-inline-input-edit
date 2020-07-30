@@ -56,8 +56,5 @@
   "bugs": {
     "url": "https://github.com/iamwill123/react-inline-input-edit/issues"
   },
-  "homepage": "https://github.com/iamwill123/react-inline-input-edit#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "homepage": "https://github.com/iamwill123/react-inline-input-edit#readme"
 }
