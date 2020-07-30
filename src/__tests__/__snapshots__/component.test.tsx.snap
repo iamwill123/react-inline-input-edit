@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Inline Input edit component. should render a default "Click to edit" label when no text prop or labelPlaceHolder prop is provided. 1`] = `
+exports[`Inline input edit component should render a default "Click to edit" label when no text prop or labelPlaceHolder prop is provided. 1`] = `
 <label
   data-testid="label-component"
   onClick={[Function]}
@@ -16,7 +16,7 @@ exports[`Inline Input edit component. should render a default "Click to edit" la
 </label>
 `;
 
-exports[`Inline Input edit component. should render a label when a labelPlaceHolder prop is provided. 1`] = `
+exports[`Inline input edit component should render a label when a labelPlaceHolder prop is provided. 1`] = `
 <label
   data-testid="label-component"
   onClick={[Function]}
@@ -32,7 +32,7 @@ exports[`Inline Input edit component. should render a label when a labelPlaceHol
 </label>
 `;
 
-exports[`Inline Input edit component. should render a text label given a text prop. 1`] = `
+exports[`Inline input edit component should render a text label given a text prop. 1`] = `
 <label
   data-testid="label-component"
   onClick={[Function]}
@@ -48,7 +48,7 @@ exports[`Inline Input edit component. should render a text label given a text pr
 </label>
 `;
 
-exports[`Inline Input edit component. should render an input when label is clicked, and should update label with new input text. 1`] = `
+exports[`Inline input edit component should render an input when label is clicked, and should update label with new input text. 1`] = `
 <DocumentFragment>
   <input
     data-testid="input-component"
@@ -58,7 +58,7 @@ exports[`Inline Input edit component. should render an input when label is click
 </DocumentFragment>
 `;
 
-exports[`Inline Input edit component. should render an input when label is clicked, and should update label with new input text. 2`] = `
+exports[`Inline input edit component should render an input when label is clicked, and should update label with new input text. 2`] = `
 <DocumentFragment>
   <label
     data-testid="label-component"
@@ -69,7 +69,7 @@ exports[`Inline Input edit component. should render an input when label is click
 </DocumentFragment>
 `;
 
-exports[`Inline Input edit component. should render optional props provided by user. 1`] = `
+exports[`Inline input edit component should render optional props provided by user. 1`] = `
 <DocumentFragment>
   <label
     class="red"
@@ -81,7 +81,7 @@ exports[`Inline Input edit component. should render optional props provided by u
 </DocumentFragment>
 `;
 
-exports[`Inline Input edit component. should render optional props provided by user. 2`] = `
+exports[`Inline input edit component should render optional props provided by user. 2`] = `
 <DocumentFragment>
   <input
     class="the-one"
