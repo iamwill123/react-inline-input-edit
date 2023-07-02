@@ -44,7 +44,7 @@ exports[`Inline input edit component should render a text label given a text pro
     }
   }
 >
-  Chuck Norris's tears cure cancer. Too bad he has never cried.
+  Chuck Norris's tears cure cancer. Too bad he has never cried, ever.
 </label>
 `;
 

@@ -6,13 +6,13 @@ import { InlineInputEdit } from '..';
 
 describe('Inline input edit component', () => {
 	test('should render a text label given a text prop.', () => {
-		const text = `Chuck Norris's tears cure cancer. Too bad he has never cried.`;
+		const text = `Chuck Norris's tears cure cancer. Too bad he has never cried, ever.`;
 		const component = renderer.create(<InlineInputEdit text={text} />);
 		const testInstance = component.root;
 
 		const actual = testInstance.findByType(InlineInputEdit).props.text;
 		const expected =
-			`Chuck Norris's tears cure cancer. Too bad he has never cried.`;
+			`Chuck Norris's tears cure cancer. Too bad he has never cried, ever.`;
 
 		expect(actual).toBe(expected);
 
