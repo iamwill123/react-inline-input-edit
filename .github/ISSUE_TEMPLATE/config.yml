@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+issue_templates:
+  - name: Bug Report
+    about: Report a bug in the software.
+    filename: bug_report.md
+  - name: Feature Request
+    about: Suggest a new feature or enhancement.
+    filename: feature_request.md
+  - name: Maintenance Request
+    about: Request maintenance or improvements.
+    filename: maintenance_request.md
+  - name: Idea Proposal
+    about: Submit an idea or proposal.
+    filename: idea_proposal.md
