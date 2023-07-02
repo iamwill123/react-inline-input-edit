@@ -2,3 +2,4 @@ node_modules/
 *.map
 *.yml
 .npmignore
+.DS_Store
