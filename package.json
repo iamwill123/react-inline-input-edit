@@ -1,6 +1,6 @@
 {
   "name": "react-inline-input-edit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple inline input editor for react",
   "main": "build/index.js",
   "module": "build/index.es.js",
