@@ -2,6 +2,8 @@
 
 [![codecov](https://codecov.io/gh/iamwill123/react-inline-input-edit/branch/main/graph/badge.svg?token=ABC123)](https://codecov.io/gh/iamwill123/react-inline-input-edit) [![test](https://github.com/iamwill123/react-inline-input-edit/actions/workflows/run-unit-tests.yml/badge.svg)](https://github.com/iamwill123/react-inline-input-edit/actions/workflows/run-unit-tests.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT) ![NPM Downloads](https://img.shields.io/npm/dw/react-inline-input-edit)
 
+[![Edit example: react-inline-input-edit in reactjs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/demo-for-react-inline-input-edit-vdlz87?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Reasoning
 
 This npm package is originally adapted from <https://github.com/bfischer/react-inline-editing>. I found the package a few days ago and is super useful but un-maintained? Mainly needed it to work with TypeScript + ReactJS. The below README desc is adapted from the originator's README.
