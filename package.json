@@ -19,21 +19,21 @@
   "author": "William Pei Yuan",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "^10.4.7",
     "@types/jest": "^26.0.7",
-    "@types/react": "^16.9.43",
+    "@types/react": "^18.2.14",
     "@types/react-dom": "^16.9.8",
     "@types/react-test-renderer": "^16.9.2",
     "dot-prop": ">=5.1.1",
     "jest": "^25.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts-ts": "^4.0.8",
-    "react-test-renderer": "^16.13.1",
+    "react-test-renderer": "^18.2.0",
     "rollup": "^2.23.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
