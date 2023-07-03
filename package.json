@@ -38,7 +38,7 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.3",
-    "rollup-plugin-typescript2": "^0.23.0",
+    "rollup-plugin-typescript2": "^0.35.0",
     "serialize-javascript": ">=3.1.0",
     "ts-jest": "^25.5.1",
     "typescript": "^3.9.7"
