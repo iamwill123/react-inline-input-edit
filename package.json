@@ -34,7 +34,7 @@
     "react-dom": "^16.13.1",
     "react-scripts-ts": "^4.0.8",
     "react-test-renderer": "^16.13.1",
-    "rollup": "^2.23.0",
+    "rollup": "^3.26.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.3",
